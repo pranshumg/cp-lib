@@ -2,7 +2,7 @@
 template <typename T>
 vector<T> divisors(T n) {
   vector<T> ans;
-  for (T i = 1; i * i <= n; i++) {
+  for (T i = 1; int64_t(i) * i <= n; i++) {
     if (n % i == 0) {
       ans.push_back(i);
       if (i != n / i) {
