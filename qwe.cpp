@@ -3,7 +3,7 @@
 using namespace std;
 
 #ifdef PRANSHU_DEBUG
-#include "debug.h"
+#include "cp-lib/debug.h"
 #else
 #define dbg(...)
 #endif
