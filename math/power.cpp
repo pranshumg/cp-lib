@@ -1,4 +1,4 @@
-// TC - O(log n), SC - O(1)
+// TC - O(log b), SC - O(1)
 template <typename T>
 T power(T a, T b) {
   T ans = 1;
