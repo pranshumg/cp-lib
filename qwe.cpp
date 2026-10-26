@@ -9,12 +9,12 @@ using namespace std;
 #endif
 
 int main() {
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
-  int t;
-  cin >> t;
-  while (t--) {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int t;
+    cin >> t;
+    while (t--) {
 
-  }
-  return 0;
+    }
+    return 0;
 }
